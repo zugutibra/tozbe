@@ -74,7 +74,6 @@ p{
     padding: 10px 0;
     text-align: center;
     color: white;
-    display: flex;
 }
 @media screen and (min-width: 601px) {
     .navbar ul {
