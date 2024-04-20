@@ -77,6 +77,15 @@ p{
     display: flex;
     align-items: center;
 }
+@media screen and (max-width: 600px) {
+  .navbar ul {
+    text-align: center;
+  }
+  .navbar li {
+    display: block;
+    margin: 0;
+  }
+}
 .navbar ul {
     list-style-type: none;
     margin: 0;
