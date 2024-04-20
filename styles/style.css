@@ -75,30 +75,35 @@ p{
     text-align: center;
     color: white;
     display: flex;
-    align-items: center;
 }
+@media screen and (min-width: 601px) {
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+    .navbar-links{
+        margin-left: 300px;
+    }
+    .navbar li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+  }
 @media screen and (max-width: 600px) {
-  .navbar ul {
+    .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: left;
-}
-.navbar li {
-display: inline-block;
-}
-}
-@media screen and (max-width: 600px) {
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-.navbar li {
-display: inline-block;
-}
-}
+    }
+  
+    .navbar li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+  }
 .footer {
     margin-top: auto;
     bottom: 0;
@@ -112,9 +117,6 @@ display: inline-block;
 .navbar-brand {
     display: table;
     align-items: center;
-}
-.navbar-links{
-    margin-left: 450px; 
 }
 .navbar-links a {
     color: white;
@@ -194,7 +196,7 @@ display: inline-block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .share-form {
-    width: 600px;
+    width: 400px;
     margin: 20px auto;
     background-color: #f9f9f9;
     padding: 20px;
@@ -245,9 +247,17 @@ display: inline-block;
 h1{
     text-align: center;
 }
+@media screen and (min-width: 601px) {
 .column {
     width: 48%;
     margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+}
 }
 .form-popup {
     display: none;
