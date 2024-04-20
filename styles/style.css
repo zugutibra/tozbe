@@ -187,7 +187,7 @@ p{
     display: block;
 }
 .main-form {
-    width: 400px;
+    width: 90%;
     margin: 20px auto;
     background-color: #f9f9f9;
     padding: 20px;
@@ -195,7 +195,7 @@ p{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .share-form {
-    width: 400px;
+    width: 90%;
     margin: 20px auto;
     background-color: #f9f9f9;
     padding: 20px;
