@@ -79,13 +79,16 @@ p{
 }
 @media screen and (max-width: 600px) {
   .navbar ul {
-    text-align: center;
-  }
-  .navbar li {
-    display: block;
+    list-style-type: none;
     margin: 0;
-  }
+    padding: 0;
+    text-align: left;
 }
+.navbar li {
+display: inline-block;
+}
+}
+@media screen and (max-width: 600px) {
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -94,6 +97,7 @@ p{
 }
 .navbar li {
 display: inline-block;
+}
 }
 .footer {
     margin-top: auto;
