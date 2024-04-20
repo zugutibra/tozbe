@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOZBE</title>
+    <link rel="icon" type="image/x-icon" href="photos/icon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">
+        <div style="display: flex;">
+            <img src="photos/icon.png" alt="Photo" style="margin: 10px 10px; width: 100px;">
+            <h1 style="font-family:'Montserrat'; margin-top: 40px;">TOZBE</h1>
+        </div>
+        <div class="navbar-links">
+            <ul>
+            <li><a href="index.html">Бастапқы бет</a></li>
+            <li><a href="questions.html">Актуалды сұрақтар</a></li>
+            <li><a href="about.html">Біз туралы</a></li>
+            <li><a href="statistics.html">Cтатистика</a></li>
+            <li><a href="materials.html">Материалдар</a></li>
+            <li><a href="help.html">Көмек</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+<div id="emergencyModal" class="modal">
+    <div class="modal-content">
+        <div class="emergency-message">Сіз жалғыз емессіз, полицияға хабарласыңыз!!!</div>
+        <button class="contact-button" onclick="contactPolice()">Хабарласу</button>
+        <button class="exit-button" onclick="closeModal()">Шығу</button>
+    </div>
+</div>
+<div class="main-body">
+    <img src="photos/main.jpg" alt="Photo 1">
+    <h1 style="font-size: 40px;">Тұрмыстық зорлық-зомбылық дегеніміз не?</h1>
+    <p style="font-size: 25x;">Тұрмыстық зорлық-зомбылық-билік пен бақылауды орнату, бағыну, кімнің бастық екенін көрсету мақсатында жасалатын жақын адамдарға қатысты жүйелі түрде қайталанатын зорлық-зомбылық әрекеттері.</p>
+    <p style="font-size: 25x;">Тұрмыстық зорлық-зомбылық пен жанжалды шатастырмау маңызды. Жанжал кезінде Тараптар тең дәрежеде сөйлейді: әрқайсысы өз ұстанымын жеткізуге, түсінуге және найтиаға келуге тырысады. Зорлық-зомбылық қарым-қатынасында шешім қабылдайтын және өз еркімен таңатын бір ғана адам бар</p>
+    <p style="font-size: 20px;">Тұрмыстық зорлық - зомбылықтан зардап шеккен әйелдерге көмек береміз.</p>
+    <p style="font-size: 20px;">Болжамды зорлық - зомбылықтың алдын алуға әрекет жасаймыз.</p>
+    <p style="font-size: 20px;">Тұрмыстық зорлық - зомбылыққа төзбеушілікті қалыптастырамыз.</p>
+    <p style="font-size: 25px;"><b>Төзбе - зорлық-зомбылық жазасыз қалмауы мен қарым-қатынастарщың қауіпсіз болуын қамтамасыз ететін жоба.</b></p>
+    </div>
+<div class="footer">
+    <p>Бізбен байланысыңыз:</p>
+    <p>Адрес : Астана қаласы, Қорғалжын тас жолы 8, MNU университеті</p>
+    <p>&copy; 2024 MNU TOZBE</p>
+</div>
+<script>
+    var modal = document.getElementById("emergencyModal");
+    modal.style.display = "block";
+    function contactPolice() {
+        alert("Хабарласу...");
+    }
+    function closeModal() {
+        modal.style.display = "none";
+    }
+</script>
+
+</body>
+</html>
